@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import SearchBar from "./Components/SearchBarComponent/SearchBar";
+import QuotesGrid from "./Components/QuotesGridComponent/QuotesGrid";
+import { IUserInput } from "./Common/Interfaces";
 
 function App() {
+  const [UserInput, setUserInput] = useState<IUserInput>({
+    SearchQuery: "Lao Tzu",
+  });
+  function SetUserInput(a: IUserInput) {
+    setUserInput(a);
+    console.log("Got new keyword");
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="title">Quotes</h1>
+      <SearchBar SetUserInput={(a: IUserInput) => SetUserInput(a)} />
+      <QuotesGrid SearchQuery={UserInput.SearchQuery} />
     </div>
   );
 }

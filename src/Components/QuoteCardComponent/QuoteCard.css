@@ -1,0 +1,13 @@
+.main-content {
+  margin: auto;
+  max-width: 310px;
+  text-align: center;
+}
+
+.text {
+  padding: 10px;
+}
+
+.author {
+  font-weight: bold !important;
+}
