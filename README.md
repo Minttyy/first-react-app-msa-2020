@@ -16,7 +16,6 @@ You will also see any lint errors in the console.
 
 ## Demo Video
 
-The website will work like the following 
 ![Demo Video](websiteDemo.gif)
 
 ## Author: Sabrina Teoh
