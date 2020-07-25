@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project also utilised [Material-UI}(https://material-ui.com/), a React UI framework.
+This project also utilised [Material-UI](https://material-ui.com/), a React UI framework.
 
 ## Available Scripts
 
