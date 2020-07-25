@@ -11,7 +11,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-  rootDir: 'phase-1'
+  rootDir: 'src'
   buildDir: '$(rootDir)/build'
 
 steps:
