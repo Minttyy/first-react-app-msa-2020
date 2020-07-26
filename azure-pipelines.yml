@@ -9,7 +9,7 @@ trigger:
 - develop
 
 variables:
-  rootDir: 'first-react-app-msa-2020'
+  rootDir: 'phase-1'
   buildDir: '$(rootDir)/build'
 
 pool:
