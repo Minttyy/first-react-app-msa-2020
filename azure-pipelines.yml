@@ -9,7 +9,7 @@ trigger:
 - develop
 
 variables:
-  rootDir: 'phase-1'
+  rootDir: 'my-app'
   buildDir: '$(rootDir)/build'
 
 pool:
@@ -41,3 +41,5 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+
+
