@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project also utilised [Material-UI](https://material-ui.com/), a React UI framework.
 
-The third part API used was from [QuoteFreeAPI](https://type.fit/api/quotes).
+The third party API used was from [QuoteFreeAPI](https://type.fit/api/quotes).
 
 ## Available Scripts
 
