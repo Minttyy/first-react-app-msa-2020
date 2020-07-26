@@ -9,7 +9,7 @@ trigger:
 - develop
 
 variables:
-  rootDir: 'my-app'
+  rootDir: 'Minttyy/first-react-app-msa-2020'
   buildDir: '$(rootDir)/build'
 
 pool:
